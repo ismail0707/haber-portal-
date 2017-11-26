@@ -1,0 +1,38 @@
+Skype && Skype.WebExperience && Skype.WebExperience.setGlobalization({
+
+    calendar : {
+        days : {
+            names: ["Pazar", "Pazartesi", "Salı", "Çarşamba", "Perşembe", "Cuma", "Cumartesi"],
+            namesAbbr: ["Paz", "Pzt", "Sal", "Çar", "Per", "Cum", "Cmt"]
+        },
+        months: {
+            names: ["Ocak", "Şubat", "Mart", "Nisan", "Mayıs", "Haziran", "Temmuz", "Ağustos", "Eylül", "Ekim", "Kasım", "Aralık"],
+            namesAbbr: ["Oca", "Şub", "Mar", "Nis", "May", "Haz", "Tem", "Ağu", "Eyl", "Eki", "Kas", "Ara"]
+        },
+        firstDay: 1
+    },
+    time : {
+        AM: "",
+        PM: "",
+        separator: ":",
+        format: {
+            duration: "mm:ss",
+            short: "HH:mm",
+            long: "HH:mm:ss"
+        }
+    },
+    date: {
+        separator: ".",
+        format: {
+            dayMonth: "d.M",
+            dayMonthYear: "d.M.yy",
+            dayAbbr: "dAbbr",
+            dayName: "dName",
+            dateAbbr: "d mAbbr yyyy",
+            shortDateAbbr: "d mAbbr"
+        }
+    },
+    dir: "ltr"
+});
+
+
